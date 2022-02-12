@@ -12,7 +12,7 @@ Demo video & details are available at: https://guizichen.wixsite.com/portfolio/a
 
 
 
-2. [**PlaceData.cs**](https://github.com/Gavin-Guiii/The_Defender/blob/main/POI/PlaceData.cs) <br> Places of interest (POIs) are represented by a serializable class so that it can be stored in a JSON file. It stores both game-related parameters and real-world coordinates so that they can be pinned on the map.
+2. [**PlaceData.cs**](https://github.com/Gavin-Guiii/The_Defender/blob/main/POI/PlaceData.cs) <br> Places of interest (POIs) are represented by a serializable class so that it can be stored in a JSON file. POI data includes both game-related parameters and real-world coordinates so that they can be pinned on the map.
    <br>[**POIDataHelper**](https://github.com/Gavin-Guiii/The_Defender/blob/main/POI/POIDataHelper.cs) handles reading/writing of the JSON file, and [**FactoryListItem**](https://github.com/Gavin-Guiii/The_Defender/blob/main/POI/FactoryListItem.cs) displays the list of all POIs.
 
 
