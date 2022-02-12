@@ -7,14 +7,13 @@ Demo video & details are available at: https://guizichen.wixsite.com/portfolio/a
 ## Code Samples
 (Detailed code explanations are included in the comments)
 
-1. [**CharacterAction.cs**](https://github.com/Gavin-Guiii/The_Little_Match_Girl_AR/blob/main/CharacterAction.cs) <br>It works like a timeline and lets non-playable characters to perform certain actions at desired moments.
+1. [**HealthMultiplayer.cs**](https://github.com/Gavin-Guiii/The_Defender/blob/main/Multiplayer/HealthMultiplayer.cs) <br>It is the base Health class in the multiplayer environment. 
+   <br>[**EnemyMultiplayer**](https://github.com/Gavin-Guiii/The_Defender/blob/main/Multiplayer/EnemyMultiplayer.cs) and [**PlayerHealthMultiplayer**](https://github.com/Gavin-Guiii/The_Defender/blob/main/Multiplayer/PlayerHealthMultiplayer.cs) inherit from it.
 
 
 
-2. [**LightMatch.cs**](https://github.com/Gavin-Guiii/The_Little_Match_Girl_AR/blob/main/LightMatch.cs) <br> It handles all the functions related to match lighting.
+2. [**PlaceData.cs**](https://github.com/Gavin-Guiii/The_Defender/blob/main/POI/PlaceData.cs) <br> Places of interest (POIs) are represented by a serializable class so that it can be stored in a JSON file. It stores both game-related parameters and real-world coordinates so that they can be pinned on the map.
+   <br>[**POIDataHelper**](https://github.com/Gavin-Guiii/The_Defender/blob/main/POI/POIDataHelper.cs) handles reading/writing of the JSON file, and [**FactoryListItem**](https://github.com/Gavin-Guiii/The_Defender/blob/main/POI/FactoryListItem.cs) displays the list of all POIs.
 
-
-
-3. [**DetectClickableObject.cs**](https://github.com/Gavin-Guiii/The_Little_Match_Girl_AR/blob/main/DetectClickableObject.cs) <br> It determines whether a virtual object is a [**ClickableObject**](https://github.com/Gavin-Guiii/The_Little_Match_Girl_AR/blob/main/ClickableObject.cs) or a [**SequentialClickableObject**](https://github.com/Gavin-Guiii/The_Little_Match_Girl_AR/blob/main/SequentialClickableObject.cs). If so, it will invoke corresponding events.
 
 
